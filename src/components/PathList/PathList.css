@@ -1,0 +1,15 @@
+.pathlist__ul{
+    padding: 0px;
+}
+.pathlist__ul li{
+    list-style: none;
+}
+.placeholder {
+    background: rgb(251, 245, 228);
+    padding: 10px;
+    margin-top: 10px;
+}
+.placeholder:before {
+    content: "Переместить сюда";
+    color: rgb(208, 208, 208);
+}

@@ -1,0 +1,14 @@
+.path__point{
+    background: #fff0af;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+}
+.path__point span{
+    margin-left: 5px;
+}
+.path__button{
+    border: none;
+    background: none;
+    cursor: pointer;
+}

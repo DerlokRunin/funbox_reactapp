@@ -1,0 +1,130 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`проверка рендеринга yandex map 1`] = `
+<YMaps
+  enterprise={false}
+  onApiAvaliable={[Function]}
+  version="2.1"
+>
+  <Map
+    height="100%"
+    instanceRef={[Function]}
+    onMouseDown={[Function]}
+    state={
+      Object {
+        "center": Array [
+          42.423,
+          35.353,
+        ],
+        "zoom": 14,
+      }
+    }
+    width="100%"
+  >
+    <Placemark
+      geometry={
+        Object {
+          "coordinates": Array [
+            42.423,
+            35.353,
+          ],
+          "type": "Point",
+        }
+      }
+      key="1"
+      onGeometryChange={[Function]}
+      options={
+        Object {
+          "draggable": true,
+          "preset": "islands#blackStretchyIcon",
+        }
+      }
+      properties={
+        Object {
+          "balloonContent": "test",
+          "hintContent": "test",
+          "iconContent": "test",
+        }
+      }
+    />
+    <Placemark
+      geometry={
+        Object {
+          "coordinates": Array [
+            42.423,
+            35.353,
+          ],
+          "type": "Point",
+        }
+      }
+      key="2"
+      onGeometryChange={[Function]}
+      options={
+        Object {
+          "draggable": true,
+          "preset": "islands#blackStretchyIcon",
+        }
+      }
+      properties={
+        Object {
+          "balloonContent": "test2",
+          "hintContent": "test2",
+          "iconContent": "test2",
+        }
+      }
+    />
+    <Placemark
+      geometry={
+        Object {
+          "coordinates": Array [
+            42.423,
+            35.353,
+          ],
+          "type": "Point",
+        }
+      }
+      key="3"
+      onGeometryChange={[Function]}
+      options={
+        Object {
+          "draggable": true,
+          "preset": "islands#blackStretchyIcon",
+        }
+      }
+      properties={
+        Object {
+          "balloonContent": "test3",
+          "hintContent": "test3",
+          "iconContent": "test3",
+        }
+      }
+    />
+    <Polyline
+      geometry={
+        Object {
+          "coordinates": Array [
+            Array [
+              42.423,
+              35.353,
+            ],
+            Array [
+              42.423,
+              35.353,
+            ],
+            Array [
+              42.423,
+              35.353,
+            ],
+          ],
+          "type": "LineString",
+        }
+      }
+      properties={
+        Object {
+          "hintContent": "линия",
+        }
+      }
+    />
+  </Map>
+</YMaps>
+`;

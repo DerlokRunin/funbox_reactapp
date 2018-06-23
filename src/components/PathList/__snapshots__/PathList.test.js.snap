@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`проверка рендеринга списка 1`] = `
+<div>
+  <ul
+    className="pathlist__ul"
+    onDragOver={[Function]}
+  >
+    <li
+      dataset_id={0}
+      draggable="true"
+      key="1"
+      onDragEnd={[Function]}
+      onDragStart={[Function]}
+    >
+      <Path
+        onDelete={[Function]}
+        point={
+          Object {
+            "coordinates": Array [
+              42.423,
+              35.353,
+            ],
+            "id": 1,
+            "title": "test",
+          }
+        }
+      />
+    </li>
+    <li
+      dataset_id={1}
+      draggable="true"
+      key="2"
+      onDragEnd={[Function]}
+      onDragStart={[Function]}
+    >
+      <Path
+        onDelete={[Function]}
+        point={
+          Object {
+            "coordinates": Array [
+              42.423,
+              35.353,
+            ],
+            "id": 2,
+            "title": "test2",
+          }
+        }
+      />
+    </li>
+    <li
+      dataset_id={2}
+      draggable="true"
+      key="3"
+      onDragEnd={[Function]}
+      onDragStart={[Function]}
+    >
+      <Path
+        onDelete={[Function]}
+        point={
+          Object {
+            "coordinates": Array [
+              42.423,
+              35.353,
+            ],
+            "id": 3,
+            "title": "test3",
+          }
+        }
+      />
+    </li>
+  </ul>
+</div>
+`;
